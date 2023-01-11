@@ -14,6 +14,7 @@ namespace VR.Data.Data
         {
         }
 
+
         public DbSet<VRMission.Person> Person { get; set; } = default!;
 
         public DbSet<VRMission.Mission> Mission { get; set; } = default!;
